@@ -13,11 +13,11 @@
                 <header class="header">
                     <h1>EasyCountries</h1>
                     <div class="continent">
-                        <button class="continent-option" onclick="ShowCountries()">America</button>
-                        <button class="continent-option" onclick="ShowCountries()">Asia</button>
-                        <button class="continent-option" onclick="ShowCountries()">Africa</button>
-                        <button class="continent-option" onclick="ShowCountries()">Antartica</button>
-                        <button class="continent-option" onclick="ShowCountries()">Europe</button>
+                        <button class="continent-option" data-continent="Americas" onclick="ShowCountries(this)">America</button>
+                        <button class="continent-option" data-continent="Asia" onclick="ShowCountries(this)">Asia</button>
+                        <button class="continent-option" data-continent="Africa" onclick="ShowCountries(this)">Africa</button>
+                        <button class="continent-option" data-continent="Oceania" onclick="ShowCountries(this)">Antartica</button>
+                        <button class="continent-option" data-continent="Europe" onclick="ShowCountries(this)">Europe</button>
                     </div>
                 </header>
                 <main class="countries">
