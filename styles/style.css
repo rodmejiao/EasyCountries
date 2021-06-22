@@ -49,7 +49,7 @@
     min-width: 300px;
     max-width: 350px;
     height: 300px;
-    border: 1px solid yellow;
+  /*   border: 1px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
