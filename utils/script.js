@@ -1,7 +1,6 @@
 
 function ShowCountries(continent) {
     let continentSelected =continent.getAttribute(`data-continent`)
-    console.log(continentSelected)
     const URL_API=`https://restcountries.eu/rest/v2/all`
     const URL_API_REGION=`https://restcountries.eu/rest/v2/region/${continentSelected}`
     let xhr=new XMLHttpRequest()
@@ -12,18 +11,38 @@ function ShowCountries(continent) {
                 let countries=JSON.parse(this.response)
               /*let countriesByContinent=countries.filter(country => country.region==`Europe` ) */
                 let mainCountries=document.getElementsByClassName(`countries`)[0]
+                let continentName=document.createElement(`h2`)
+                continentName.classList.add(`continent-name`)
                 mainCountries.innerHTML=""
+                continentName.textContent=continentSelected
+                mainCountries.appendChild(continentName)
               /*countriesByContinent.forEach(country => { */
                     countries.forEach(country => {
                     const CARD= document.createElement(`div`)
                     const NAME_COUNTRY=document.createElement(`h2`)
                     const FLAG_COUNTRY=document.createElement(`img`)
-                    CARD.classList.add(`card`)
+                    CARD.classList.add(`card`)   
                     NAME_COUNTRY.textContent=country.name
-                    FLAG_COUNTRY.src=country.flag
+                    FLAG_COUNTRY.src=country.flag 
+
+                    const CARD_INFO= document.createElement(`div`)
+                    const CARD_INFO_NAME_COUNTRY=document.createElement(`h2`)
+                    const CARD_INFO_CAPITAL_COUNTRY=document.createElement(`p`)
+                    const CARD_INFO_CAPITAL_INFO=document.createElement(`a`)
+                    CARD_INFO.classList.add(`card-info`)
+                    CARD_INFO_NAME_COUNTRY.textContent=country.name
+                    CARD_INFO_CAPITAL_COUNTRY.textContent=`Capital: ${country.capital}`
+                    CARD_INFO_CAPITAL_INFO.textContent=`Show Data`
+                    CARD_INFO_CAPITAL_INFO.href=`./index.html`
+
                     CARD.appendChild(NAME_COUNTRY)
                     CARD.appendChild(FLAG_COUNTRY)
+                    CARD_INFO.appendChild(CARD_INFO_NAME_COUNTRY)
+                    CARD_INFO.appendChild(CARD_INFO_CAPITAL_COUNTRY)
+                    CARD_INFO.appendChild(CARD_INFO_CAPITAL_INFO)
+                    CARD.appendChild(CARD_INFO)
                     mainCountries.appendChild(CARD)
+                    
                 });
             }
 
