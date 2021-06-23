@@ -33,7 +33,7 @@ function ShowCountries(continent) {
                     CARD_INFO_NAME_COUNTRY.textContent=country.name
                     CARD_INFO_CAPITAL_COUNTRY.textContent=`Capital: ${country.capital}`
                     CARD_INFO_CAPITAL_INFO.textContent=`Show Data`
-                    CARD_INFO_CAPITAL_INFO.href=`./index.html`
+                    CARD_INFO_CAPITAL_INFO.href=`./countryDetail.html?name=${country.name}`
 
                     CARD.appendChild(NAME_COUNTRY)
                     CARD.appendChild(FLAG_COUNTRY)
