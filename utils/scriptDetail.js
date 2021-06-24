@@ -26,20 +26,18 @@ const ShowDataCOuntry=function name(params) {
             const COUNTRY_BORDERS=document.getElementsByClassName(`country-borders`)[0]
             const COUNTRY_LANGUAGES=document.getElementsByClassName(`country-languages`)[0]
             const COUNTRY_TRANSLATION=document.getElementsByClassName(`country-translations`)[0]
-            
-            COUNTRY_FLAG.textContent=`${country.name}`
+            COUNTRY_FLAG.style.backgroundImage=`url(${country.flag})`
             COUNTRY_NAME.textContent=`${country.name}`
             COUNTRY_CAPITAL.textContent=`${country.capital}`
-            COUNTRY_ALTER_SPELLING.textContent=`${country.name}`
-            COUNTRY_REGION.textContent=`${country.region}`
-            COUNTRY_SUBREGION.textContent=`${country.subregion}`
-            COUNTRY_DEMONYN.textContent=`${country.demonym}`
-            COUNTRY_POPULATION.textContent=`${country.population}`
-            COUNTRY_TIMEZONES.textContent=`${country.name}`
-            COUNTRY_BORDERS.textContent=`${country.name}`
-            COUNTRY_LANGUAGES.textContent=`${country.name}`
-            COUNTRY_TRANSLATION.textContent=`${country.name}`
-
+            COUNTRY_ALTER_SPELLING.textContent=`alter spelling`
+            COUNTRY_REGION.innerHTML+=`${country.region}`
+            COUNTRY_SUBREGION.innerHTML+=`${country.subregion}`
+            COUNTRY_DEMONYN.innerHTML+=`${country.demonym}`
+            COUNTRY_POPULATION.innerHTML+=`${country.population}`
+            COUNTRY_TIMEZONES.textContent=`timezones`
+            COUNTRY_BORDERS.textContent=`borders`
+            COUNTRY_LANGUAGES.textContent=`languajes`
+            COUNTRY_TRANSLATION.textContent=`translation`
         }
     }
     xhr.send()
