@@ -20,8 +20,10 @@ function ShowCountries(continent) {
                     countries.forEach(country => {
                     const CARD= document.createElement(`div`)
                     const NAME_COUNTRY=document.createElement(`h2`)
+                    const CONTAINER_FLAG_COUNTRY=document.createElement(`div`)
                     const FLAG_COUNTRY=document.createElement(`img`)
-                    CARD.classList.add(`card`)   
+                    CARD.classList.add(`card`)
+                    CONTAINER_FLAG_COUNTRY.classList.add(`container-flag`)   
                     NAME_COUNTRY.textContent=country.name
                     FLAG_COUNTRY.src=country.flag 
 
@@ -35,8 +37,10 @@ function ShowCountries(continent) {
                     CARD_INFO_CAPITAL_INFO.textContent=`Show Data`
                     CARD_INFO_CAPITAL_INFO.href=`./countryDetail.html?name=${country.name}`
 
+                    
+                    CONTAINER_FLAG_COUNTRY.appendChild(FLAG_COUNTRY)
+                    CARD.appendChild(CONTAINER_FLAG_COUNTRY)
                     CARD.appendChild(NAME_COUNTRY)
-                    CARD.appendChild(FLAG_COUNTRY)
                     CARD_INFO.appendChild(CARD_INFO_NAME_COUNTRY)
                     CARD_INFO.appendChild(CARD_INFO_CAPITAL_COUNTRY)
                     CARD_INFO.appendChild(CARD_INFO_CAPITAL_INFO)

@@ -1,0 +1,1000 @@
+  501  clear
+  502  ls -lH
+  503  clear
+  504  ls &&  mkdir bbcita && cal
+  505  mv saludo.txt bbcita
+  506  *txt
+  507  *.txt
+  508  ls *.txt
+  509  mv ls *.txt bbcita
+  510  *.txt bbcita
+  511  ls *.txt
+  512  clear
+  513  tree
+  514  clear
+  515  cd bbcita
+  516  ls
+  517  ls /la
+  518  ls -la
+  519  *txt
+  520  ls *txt
+  521  mv *txt xde/ && cowsay se movieron todos los archivos
+  522  cd xde/
+  523  cd ..
+  524  cd xde/
+  525  clear
+  526  ls
+  527  mv *txt ../ && cowsay se movieron todos los archivos | lolcat
+  528  cd ..
+  529  clear
+  530  cd ..
+  531  ls
+  532  rm -ri bbcita
+  533  ls -la
+  534  rm -ri bbcita
+  535  rm -ri bbcita2/
+  536  rm 2
+  537  rm walter
+  538  rm -ri walter
+  539  mkdir poo
+  540  mv RevisionTecnicaVehicularV2/ poo/
+  541  rm JavaDemo/ poo/
+  542  mv JavaDemo/ poo/
+  543  mv PC1_ALDAIR\ CARBAJAL/ poo/
+  544  clear
+  545  ls
+  546  ls -la
+  547  clear
+  548  ls
+  549  ls -la
+  550  mkdir directory
+  551  touch file.html
+  552  CLEAR
+  553  clear
+  554  ls -la
+  555  CLEAR
+  556  clear
+  557  ls
+  558  cleare
+  559  clear
+  560  cowsay hola heidy | lolcat
+  561  cowsay hola heidy te saluda la marce | lolcat
+  562  cowsay -f tux hola heidy te saluda la marce | lolcat
+  563  cowsay -t  hola heidy te saluda la marce | lolcat
+  564  cleart
+  565  clear
+  566  ls
+  567  clear 
+  568  lls -la
+  569  ls -la
+  570  clear
+  571  ls
+  572  ls -la
+  573  tree
+  574  clear
+  575  ls -la
+  576  ls *html
+  577  ls -la *html
+  578  ls -l *html
+  579  ls -l 
+  580  chmod u+x file.html
+  581  ls -l 
+  582  sudo chmod u+x file.html
+  583  clear
+  584  ls -l
+  585  sudo chmod o+w file.html
+  586  ls -l
+  587  sudo chmod o+x file.html
+  588  ls -l
+  589  sudo chmod o-x file.html
+  590  ls -l
+  591  chmod a+rwx file.html 
+  592  ls *html
+  593  ls -l *html
+  594  chmod o-rwx file.html 
+  595  ls -l *html
+  596  chmod g-rwx file.html 
+  597  ls -l *html
+  598  clear
+  599  cowsay rodrigo
+  600  cowsay rodrigo | lolcat
+  601  clear
+  602  ls
+  603  ls -l
+  604  chmod 777 file.html
+  605  ls -l *html
+  606  cowsay rodrigo | lolcat
+  607  clear
+  608  history
+  609  cowsay rodrigo | lolcat
+  610  clear
+  611  history > log.txt
+  612  less log.txt
+  613  clear
+  614  cowsay oliiis >> log.txt
+  615  rm log.txt 
+  616  clear
+  617  whoami
+  618  clear
+  619  mkdir sandbox
+  620  cd sandbox/
+  621  touch mitexto.txt
+  622  vim mitexto.txt 
+  623  nano mitexto.txt 
+  624  less mitexto.txt 
+  625  clear
+  626  chmod 755 mitexto.txt 
+  627  ls -la
+  628  ls -l *txt
+  629  clear
+  630  ls -l *txt
+  631  less mitexto.txt 
+  632  clear
+  633  chmod u-r mitexto.txt 
+  634  less mitexto.txt 
+  635  chmod u+r mitexto.txt 
+  636  less mitexto.txt 
+  637  chmod u-x,go=w  mitexto.txt 
+  638  less mitexto.txt 
+  639  ls -l *txt
+  640  whoami
+  641  id
+  642  clear
+  643  su root
+  644  whoiam
+  645  whoami
+  646  clear
+  647  root
+  648  sudo -i
+  649  clear
+  650  ls
+  651  cd Desktop/
+  652  mkdir javascript
+  653  code javascript/
+  654  touch index.html
+  655  touch script.js
+  656  open script.js
+  657  clear
+  658  pwd
+  659  clear
+  660  ls
+  661  clear
+  662  pwd
+  663  git init
+  664  cleat
+  665  clear
+  666  ls
+  667  git status
+  668  clear
+  669  npm
+  670  npm init
+  671  sudo apt install npm
+  672  clear
+  673  npm init
+  674  clear
+  675  ls
+  676  clear
+  677  git status
+  678  clear
+  679  ls
+  680  cd ..
+  681  ls
+  682  cd javascript/
+  683  clear
+  684  git status
+  685  git add .
+  686  clear
+  687  git status
+  688  clear
+  689  touch callback_R&M.js
+  690  touch callbackr&m.js
+  691  clear
+  692  rm callback_R 
+  693  rm callbackr
+  694  clear
+  695  > callbackAPI.js
+  696  clear
+  697  npm install xhtmlhttprequest
+  698  clear
+  699  npm i xmlhttprequest
+  700  clear
+  701  npm i --save-dev @types/xmlhttprequest
+  702  clear
+  703  ls la
+  704  ls -la
+  705  cd node_modules/
+  706  clear
+  707  ls -la
+  708  cd xmlhttprequest/
+  709  ls -la
+  710  cd lib/
+  711  ls -la
+  712  cd ..
+  713  clear
+  714  npm install @types/module-name
+  715  npm install @types/xmlhttprequest
+  716  clear
+  717  mkdir @types
+  718  cd @types/
+  719  > tsconfig.json
+  720  npm install @types/xmlhttprequest
+  721  clear
+  722  npm i xmlhttprequest-ts
+  723  npm init
+  724  whoami
+  725  clear
+  726  close
+  727  exit
+  728  ls
+  729  cd Desktop/
+  730  clear
+  731  ls
+  732  cd xmlhttpRequestCallback/
+  733  clear
+  734  ls
+  735  cd asincronismo/
+  736  clear
+  737  npm run callback
+  738  clear
+  739  npm run callback
+  740  clear
+  741  npm run callback
+  742  clear
+  743  npm run callback
+  744  CLEAR
+  745  clear
+  746  ls
+  747  clear
+  748  ls -CF
+  749  ls -A
+  750  clear
+  751  ls
+  752  cd ~
+  753  clear
+  754  ls
+  755  clear
+  756  ls
+  757  ln -s Music/ Musiquitas
+  758  ls -l
+  759  printenv
+  760  clear
+  761  cd Desktop/
+  762  clear
+  763  printenv > variablesEntorno.txt
+  764  less variablesEntorno.txt 
+  765  clear
+  766  echo $HOME
+  767  cd $HOME
+  768  Clear
+  769  clear
+  770  echo $Path
+  771  echo $PATH
+  772  ls -la
+  773  code .bashrc 
+  774  clear
+  775  arbolito
+  776  clear
+  777  bash
+  778  clear
+  779  echo $RODRIGO_MESSSAGE
+  780  $RODRIGO_MESSSAGE
+  781  ECHO $RODRIGO_MESSSAGE
+  782  echo $RODRIGO_MESSSAGE
+  783  arbolito 
+  784  clear
+  785  mkdir asincronismo
+  786  cd asincronismo/
+  787  clear
+  788  git init
+  789  npm init
+  790  ls
+  791  clear
+  792  mkdir drc
+  793  rm -ri drc
+  794  mkdir src
+  795  cd src/
+  796  mkdir callback
+  797  cd callback/
+  798  > index.js
+  799  npm run callback
+  800  clear
+  801  npm run callback
+  802  clear
+  803  npm run callback
+  804  clear
+  805  npm run callback
+  806  npm install xmlhttprequest --save
+  807  npm run callback
+  808  clear
+  809  npm run callback
+  810  npm run callback
+  811  clear
+  812  npm run callback
+  813  clear
+  814  npm run callback
+  815  clear
+  816  npm run callback
+  817  clear
+  818  npm run callback
+  819  clear
+  820  npm run callback
+  821  clear
+  822  npm run callback
+  823  clear
+  824  npm run callback
+  825  clear
+  826  npm run callback
+  827  clear
+  828  npm run callback
+  829  clear
+  830  npm run callback
+  831  clear
+  832  npm run callback
+  833  clear
+  834  npm run callback
+  835  clear
+  836  cleart
+  837  clear
+  838  ls
+  839  clear
+  840  echo $RODRIGO_MESSSAGE
+  841  echo $PATH | tr : \\n
+  842  clear
+  843  bash
+  844  echo $PATH
+  845  ListaRutasPath 
+  846  clear
+  847  wich cd
+  848  which cd
+  849  which code
+  850  which firefox
+  851  which brave
+  852  find sandbox
+  853  find ~ file
+  854  :q
+  855  clear
+  856  find ~ *html
+  857  clear
+  858  find ~ -name *html
+  859  clear
+  860  find ~ -name *java
+  861  find ~ -name *java | less
+  862  find ~ -type d -name sandbox
+  863  whereis firefox
+  864  find ~ -type f -name *html
+  865  find ~ -type f -name *java
+  866  clear
+  867  find ~ -type f -name *java | less
+  868  find ~ -type f -size 20MB
+  869  find ~ -type f -size 20 MB
+  870  find ~ -type f -size 20 M
+  871  find ~ -type f -size 20M
+  872  find ~ -type f -size 1M
+  873  clear
+  874  find ~ -type f -size 10M
+  875  find ~ -type d -size 10M
+  876  find ~ -type -size 10M
+  877  find ~ -size 10M
+  878  ifconfig
+  879  sudo apt install net-tools
+  880  grep Towers movies.csv
+  881  cd Desktop/
+  882  clear
+  883  grep Towers movies.csv
+  884  cd ~
+  885  grep Towers movies.csv
+  886  cd Desktop/
+  887  grep Towers movies.csv
+  888  grep Towers movies.csv > listFilter.txt
+  889  rm -ri listFilter.txt 
+  890  clear
+  891  grep Towers movies.csv > listFilter.txt
+  892  rm -ri listFilter.txt
+  893  clear
+  894  grep Towers movies.csv
+  895  grep the movies.csv
+  896  clear
+  897  grep The movies.csv
+  898  clear
+  899  grep -i the movies.csv
+  900  clear
+  901  grep -i the movies.csv | less | lolcat
+  902  clear
+  903  grep -c the movies.csv | cowsay | lolcat
+  904  grep -v -i the movies.csv | lolcat
+  905  clear
+  906  grep -vi the movies.csv | lolcat
+  907  clear
+  908  wc movies.csv |cowsay |lolcat 
+  909  wc -l movies.csv |cowsay |lolcat 
+  910  wc -w movies.csv |cowsay |lolcat 
+  911  wc -c movies.csv |cowsay |lolcat 
+  912  echo lines  | wc -l movies.csv |cowsay |lolcat 
+  913  clear
+  914  ~
+  915  clear
+  916  cd ~
+  917  clear
+  918  ifconfig
+  919  ping 
+  920  ping 192.168.1.14
+  921  clear
+  922  ping www.google.com
+  923  clear
+  924  curl www.google.com
+  925  sudo apt install curl
+  926  clear
+  927  curl www.google.com
+  928  clear
+  929  curl www.xvideos.com
+  930  curl www.petardas.com
+  931  clear
+  932  curl www.sociosensalud.org
+  933  curl www.sociosensalud.org.pe
+  934  curl www.github.com
+  935  curl www.sexmexxx.com
+  936  clear
+  937  curl www.petardas.com > index.html | nano
+  938  curl www.petardas.com > index.html | nano index.html
+  939  curl www.petardas.com > index.html 
+  940  curl www.petardas.com 
+  941  clear
+  942  wget www.google.com
+  943  clear
+  944  traceroute www.sociosensalud.org.pe
+  945  sudo apt install tracerroute
+  946  clear
+  947  sudo apt install tracerroute
+  948  traceroute www.google.com
+  949  sudo apt install inetutils-traceroute 
+  950  clear
+  951  traceroute www.google.com
+  952  clear
+  953  traceroute www.sociosensalud.org.pe
+  954  netstat i
+  955  clear
+  956  netstat -i
+  957  clear
+  958  cd desktop
+  959  cd Desktop/
+  960  mkdir ToCompress
+  961  cd ToCompress/
+  962  touch file1
+  963  touch file2
+  964  touch file3
+  965  touch file4
+  966  arbolito 
+  967  clear
+  968  cd ..
+  969  tar -cvf ToCompress.tar ToCompress/
+  970  tar -cvzf ToCompressGZ.tar.gz ToCompress/
+  971  ls
+  972  ls -la
+  973  clear
+  974  rm -ri ToCompress
+  975  clear
+  976  tar -xzvf ToCompressGZ.tar.gz
+  977  clear
+  978  zip rodrigo
+  979  clear
+  980  zip
+  981  clear
+  982  zip rodrigo/
+  983  zip -r rodrigo.zip rodrigo/
+  984  hour
+  985  date
+  986  unzip rodrigo.zip
+  987  arbolito 
+  988  clear
+  989  ListaRutasPath 
+  990  clear
+  991  echo $RODRIGO_MESSSAGE
+  992  clear
+  993  echo $RODRIGO_MESSSAGE
+  994  bash
+  995  echo $RODRIGO_MESSSAGE
+  996  cowsay $RODRIGO_MESSAGE
+  997  clear
+  998  cowsay $RODRIGO_MESSAGE
+  999  bash
+ 1000  echo $RODRIGO_MESSSAGE
+ 1001  clear
+ 1002  cowsay $RODRIGO_MESSAGE
+ 1003  clear
+ 1004  saludito
+ 1005  clear
+ 1006  arbolito 
+ 1007  clear
+ 1008  bash
+ 1009  saludito 
+ 1010  cowsay $RODRIGO_MESSAGE
+ 1011  cowsay $RODRIGO_MESSAGE | lolcat
+ 1012  clear
+ 1013  echo $PATH
+ 1014  ListaRutasPath 
+ 1015  mkdir bin
+ 1016  pwd
+ 1017  bash
+ 1018  bash
+ 1019  bash
+ 1020  echo $PATH
+ 1021  clear
+ 1022  ListaRutasPath 
+ 1023  cd
+ 1024  ls -la
+ 1025  code .bash_history 
+ 1026  code .bash_logout 
+ 1027  code .local
+ 1028  clear
+ 1029  bash
+ 1030  ls
+ 1031  cd asincronismo/
+ 1032  ls
+ 1033  cd src
+ 1034  ls
+ 1035  cd promise
+ 1036  mkdir promise
+ 1037  cd promise/
+ 1038  touch index.js
+ 1039  clear
+ 1040  npm run promise
+ 1041  saludito 
+ 1042  clear
+ 1043  npm run promise | lolcat
+ 1044  clear
+ 1045  npm run promise | lolcat
+ 1046  clear
+ 1047  npm run promise | lolcat
+ 1048  clear
+ 1049  npm run promise | lolcat
+ 1050  clear
+ 1051  npm run promise | lolcat
+ 1052  clear
+ 1053  npm run promise | lolcat
+ 1054  clear
+ 1055  npm run promise | lolcat
+ 1056  clear
+ 1057  npm run promiseAPI | lolcat
+ 1058  clear
+ 1059  npm run promiseAPI | lolcat
+ 1060  clear
+ 1061  npm run promiseAPI | lolcat
+ 1062  cal
+ 1063  cowsay cal
+ 1064  cal | lolcat
+ 1065  clear
+ 1066  ls
+ 1067  cd Desktop/
+ 1068  zip directory/
+ 1069  zip directorio  directory/
+ 1070  clear
+ 1071  unzip directorio.zip 
+ 1072  clear
+ 1073  rar poo  poo/
+ 1074  sudo apt install rar
+ 1075  clear
+ 1076  rar prueba BataBit-Project/
+ 1077  clear
+ 1078  rar a batabit.rar BataBit-Project/
+ 1079  rar -a poo.rar poo/
+ 1080  rar a poo.rar poo/
+ 1081  clear
+ 1082  unrar batabit.rar
+ 1083  sudo apt istall unrar
+ 1084  sudo apt install unrar
+ 1085  clear
+ 1086  unrar batabit.rar
+ 1087  unrar e batabit.rar
+ 1088  clear
+ 1089  ps
+ 1090  cat & ls
+ 1091  ps
+ 1092  date
+ 1093  280+170
+ 1094  calc
+ 1095  sudo apt install calc
+ 1096  cleat
+ 1097  clear
+ 1098  calc
+ 1099  clear
+ 1100  ps
+ 1101  cat ls
+ 1102  car
+ 1103  cat
+ 1104  clear
+ 1105  ps
+ 1106  clear
+ 1107  cat & ls
+ 1108  ps
+ 1109  cat & ls
+ 1110  ps
+ 1111  kill 15900
+ 1112  top 
+ 1113  clear
+ 1114  kill 5398
+ 1115  htop
+ 1116  sudo apt install htop
+ 1117  CLEAR
+ 1118  clear
+ 1119  htop
+ 1120  clear
+ 1121  glases
+ 1122  glanses
+ 1123  glances
+ 1124  sudo apt install glances
+ 1125  clear
+ 1126  glances
+ 1127  jobs
+ 1128  glances
+ 1129  sudo nano /etc/apt/sources.list.d/google-chrome.list
+ 1130  wget https://dl.google.com/linux/linux_signing_key.pub
+ 1131  sudo apt-key add linux_signing_key.pub
+ 1132  sudo apt update && sudo apt install google-chrome-stable
+ 1133  clear
+ 1134  cd
+ 1135  ls -la
+ 1136  clear
+ 1137  cowsay rodrigo | lolcat
+ 1138  clear
+ 1139  cat > mi_nota.txt
+ 1140  clear
+ 1141  jobs
+ 1142  clear
+ 1143  fg 1
+ 1144  clear
+ 1145  jobs
+ 1146  clear
+ 1147  cat > mi_nota.txt &
+ 1148  jobs
+ 1149  clear
+ 1150  jobs
+ 1151  top
+ 1152  clear
+ 1153  kill 1757
+ 1154  clear
+ 1155  ls
+ 1156  clear
+ 1157  jobs
+ 1158  fg 1
+ 1159  clear
+ 1160  jobs
+ 1161  clear
+ 1162  google-chrome-stable
+ 1163  clear
+ 1164  jobs
+ 1165  clear
+ 1166  jobs
+ 1167  clear
+ 1168  bg 1
+ 1169  jobs
+ 1170  clear
+ 1171  cd /
+ 1172  clear
+ 1173  ls
+ 1174  grep bash
+ 1175  clear
+ 1176  echo $var
+ 1177  echo $PATH
+ 1178  clear
+ 1179  ListaRutasPath 
+ 1180  ls -la
+ 1181  printenv
+ 1182  clear
+ 1183  ls
+ 1184  clear
+ 1185  clear 
+ 1186  ls
+ 1187  clear
+ 1188  ~
+ 1189  cd ~
+ 1190  ls /la
+ 1191  ls -la
+ 1192  code .bashrc 
+ 1193  clear
+ 1194  bash
+ 1195  jobs
+ 1196  top
+ 1197  clear
+ 1198  opengoogle
+ 1199  clear
+ 1200  jobs
+ 1201  bg 1
+ 1202  jobs
+ 1203  clear
+ 1204  vim]
+ 1205  vim
+ 1206  sudo apt install vim
+ 1207  clear
+ 1208  emacs
+ 1209  sudo snap install emacs
+ 1210  sudo snap install emacs --classic
+ 1211  clear
+ 1212  jobs
+ 1213  fg 2
+ 1214  top
+ 1215  clear
+ 1216  emacs
+ 1217  clear
+ 1218  ls
+ 1219  clear
+ 1220  jobs
+ 1221  fg 2
+ 1222  clear
+ 1223  emacs rodrigo.txt
+ 1224  clear
+ 1225  code rodrigo.txt 
+ 1226  tilix
+ 1227  sudo apt install tilix
+ 1228  clea
+ 1229  clear
+ 1230  tlix
+ 1231  titlix
+ 1232  tilix
+ 1233  clear
+ 1234  env
+ 1235  cd Desktop/
+ 1236  clear
+ 1237  env > enviroment.txt & code enviroment.txt
+ 1238  which
+ 1239  clear
+ 1240  whois
+ 1241  find
+ 1242  fin bin
+ 1243  find bin
+ 1244  find *bin
+ 1245  find wich sh
+ 1246  which
+ 1247  which sh
+ 1248  which -ls
+ 1249  clear
+ 1250  cd ~
+ 1251  which
+ 1252  ListaRutasPath 
+ 1253  ls 
+ 1254  clear
+ 1255  echo home
+ 1256  echo %=$HOME
+ 1257  ls *.txt
+ 1258  ifconfig
+ 1259  clear
+ 1260  find *.png
+ 1261  find  / -name *.png
+ 1262  clear
+ 1263  ls
+ 1264  jobs
+ 1265  fg 1
+ 1266  clear
+ 1267  ls
+ 1268  jobs
+ 1269  fg 1
+ 1270  clear
+ 1271  brave
+ 1272  clear
+ 1273  jobs
+ 1274  bg 1
+ 1275  clear
+ 1276  cal
+ 1277  calc
+ 1278  clear
+ 1279  code
+ 1280  jobs
+ 1281  clear
+ 1282  ls
+ 1283  clear
+ 1284  cd
+ 1285  clear
+ 1286  cd Desktop/
+ 1287  ls
+ 1288  ls -la
+ 1289  cd javascript/
+ 1290  clear
+ 1291  ls
+ 1292  code .
+ 1293  touch async.js
+ 1294  clear
+ 1295  cd src/
+ 1296  mkdir async-await
+ 1297  cd async-await/
+ 1298  touch asynApi.js
+ 1299  cd ..
+ 1300  clear
+ 1301  npm run asyncAPI
+ 1302  clear
+ 1303  npm run asyncAPI
+ 1304  CLEAR
+ 1305  celar
+ 1306  clear
+ 1307  npm run asyncAPI
+ 1308  clear
+ 1309  npm run asyncAPI
+ 1310  clear
+ 1311  npm run asyncAPI
+ 1312  leaer
+ 1313  clear
+ 1314  npm run asyncAPI
+ 1315  clear
+ 1316  npm run asyncAPI
+ 1317  clear
+ 1318  npm run asyncAPI
+ 1319  cleaar
+ 1320  clear
+ 1321  ls
+ 1322  clear
+ 1323  npm run asyncAPI
+ 1324  clear
+ 1325  npm run asyncAPI
+ 1326  ls
+ 1327  pwd
+ 1328  clear
+ 1329  mkdir Projects
+ 1330  cd Projects/
+ 1331  clear
+ 1332  mkdir EasyCountries
+ 1333  clear
+ 1334  cd EasyCountries/
+ 1335  cleare
+ 1336  clear
+ 1337  ls
+ 1338  git init
+ 1339  clear
+ 1340  git remote add git@github.com:rodmejiao/EasyCountries.git origin
+ 1341  git remote add origin git@github.com:rodmejiao/EasyCountries.git
+ 1342  clear
+ 1343  git remote -v
+ 1344  clear
+ 1345  git status
+ 1346  clear
+ 1347  git log
+ 1348  clear
+ 1349  git pull origin master
+ 1350  clear
+ 1351  git superlog
+ 1352  clear]
+ 1353  clear
+ 1354  git log l
+ 1355  git log
+ 1356  clear
+ 1357  code .
+ 1358  touch index.html
+ 1359  mkdir utils
+ 1360  cd utils/
+ 1361  touch script.js
+ 1362  clear
+ 1363  cd ..
+ 1364  mkdir styles
+ 1365  cd styles/
+ 1366  touch style.css
+ 1367  clear
+ 1368  cd ..
+ 1369  clear
+ 1370  git status
+ 1371  git add .
+ 1372  git commit -m "first commit and create principal files and structure of project"
+ 1373  git push origin master
+ 1374  clear
+ 1375  git log
+ 1376  clear
+ 1377  ifconfig 
+ 1378  clear
+ 1379  cd ~
+ 1380  sudo ufw disable
+ 1381  ofconfig
+ 1382  ifconfig
+ 1383  ip route
+ 1384  clear
+ 1385  sudo ufw disable
+ 1386  git status
+ 1387  git add index.html 
+ 1388  cleare
+ 1389  clear
+ 1390  git commit -m "making structure of html"
+ 1391  clear
+ 1392  git status
+ 1393  git add index.html 
+ 1394  git commit --amend
+ 1395  clear
+ 1396  git status
+ 1397  git add index.html 
+ 1398  git commit -amend
+ 1399  git commit --amend
+ 1400  clear
+ 1401  git status
+ 1402  git add styles/style.css 
+ 1403  git commit -m "adding basic styles"
+ 1404  clear
+ 1405  git status
+ 1406  git add styles/style.css 
+ 1407  git commit --amend
+ 1408  clear
+ 1409  git status
+ 1410  git add utils/script.js 
+ 1411  git commit -m "adding conection to API REST COUNTRIES"
+ 1412  clear
+ 1413  git status
+ 1414  git add styles/style.css 
+ 1415  git commit -m "adding basic styles of cards"
+ 1416  git push origin master
+ 1417  sudo ufw status
+ 1418  sudo ufw allow 5500/tcp
+ 1419  sudo ufw enable
+ 1420  clear
+ 1421  git status
+ 1422  git add index.html 
+ 1423  git add utils/script.js 
+ 1424  git commit -m "doing working each button correct"
+ 1425  git push origin master
+ 1426  git add utils/script.js 
+ 1427  git commit -m "removed yellow border from cards"
+ 1428  git add styles/style.css 
+ 1429  git commit -m "removed yellow border from cards"
+ 1430  git push origin master
+ 1431  cd Desktop/
+ 1432  ls
+ 1433  ~
+ 1434  cd ~
+ 1435  clear
+ 1436  lsw
+ 1437  ls
+ 1438  cd Projects/
+ 1439  clear
+ 1440  ls
+ 1441  cd EasyCountries/
+ 1442  clear
+ 1443  ls
+ 1444  git status
+ 1445  cleart
+ 1446  clear
+ 1447  code .
+ 1448  sudo ufw allow 5501/tcp
+ 1449  clear
+ 1450  brave
+ 1451  sudo snap install brave
+ 1452  clear
+ 1453  git status
+ 1454  git add styles/
+ 1455  git status
+ 1456  git add utils/
+ 1457  clear
+ 1458  ls
+ 1459  git commit -m "doing hover foreach card to link other page"
+ 1460  clear
+ 1461  touch countryDetail.html
+ 1462  ls
+ 1463  cd utils/
+ 1464  touch scriptDetail.js
+ 1465  clear
+ 1466  cd ..
+ 1467  cd styles/
+ 1468  touch styleDetail.css
+ 1469  cd ..
+ 1470  git status
+ 1471  git add .
+ 1472  git status
+ 1473  git restore -staged .vscode/
+ 1474  git restore -staged .vscode/settings.json
+ 1475  clear
+ 1476  ls
+ 1477  git status
+ 1478  git commit -m "adding detail page for each country"
+ 1479  git push origin master
+ 1480  clear
+ 1481  git log
+ 1482  clear
+ 1483  ls
+ 1484  cd Projects/
+ 1485  clear
+ 1486  ls
+ 1487  cd EasyCountries/
+ 1488  clear
+ 1489  code .
+ 1490  jobs
+ 1491  clear
+ 1492  ls
+ 1493  clear
+ 1494  ls
+ 1495  cd Projects/
+ 1496  ls
+ 1497  cd EasyCountries/
+ 1498  clear
+ 1499  code .
+ 1500  history > log.txt
