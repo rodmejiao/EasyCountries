@@ -3,7 +3,7 @@ const NEW_URL=new URL(URL_STRING)
 const NAME_COUNTRY=NEW_URL.searchParams.get(`name`)
 
 const ShowDataCOuntry=function name() {
-    console.log(`el pais que va a ir es ${NAME_COUNTRY}`)
+    console.log(`el pais que va es ${NAME_COUNTRY}`)
     const URL_API=`https://restcountries.eu/rest/v2/name/${NAME_COUNTRY}`
     let xhr=new XMLHttpRequest()
     xhr.open(`GET`,URL_API,true)
@@ -68,7 +68,6 @@ const ShowDataCOuntry=function name() {
                 COUNTRY_COURRENCIES.appendChild(newCourrency)
             });
 
-            console.log(Object.entries(country.translations))
             Object.entries(country.translations).forEach(([key, value]) => {
                 let newTranslation=document.createElement(`li`)
                 newTranslation.innerHTML=`${key}: ${value}`
