@@ -38,3 +38,23 @@ ul li{
     margin-right: 10px;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 500px){
+    .country{
+        display: flex;
+    }
+
+    .country-flag{
+        width: 80%;
+        height: 400px;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    
+
+}
