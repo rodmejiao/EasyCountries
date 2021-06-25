@@ -24,7 +24,9 @@ const ShowDataCOuntry=function name() {
             const COUNTRY_COURRENCIES=document.getElementsByClassName(`country-courrencies`)[0]
             const COUNTRY_TRANSLATION=document.getElementsByClassName(`country-translations`)[0]
 
-            COUNTRY_FLAG.style.backgroundImage=`url(${country.flag})`
+            const COUNTRY_FLAG_IMAGE=document.createElement(`img`)
+            COUNTRY_FLAG_IMAGE.src=country.flag
+            COUNTRY_FLAG.appendChild(COUNTRY_FLAG_IMAGE)
             COUNTRY_NAME.textContent=`${country.name}`
             COUNTRY_CAPITAL.innerHTML+=`${country.capital}`
             COUNTRY_REGION.innerHTML+=`${country.region}`
