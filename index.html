@@ -13,11 +13,17 @@
                 <header class="header">
                     <h1>EasyCountries</h1>
                     <div class="continent">
-                        <button class="continent-option" data-continent="Americas" onclick="ShowCountries(this)">America</button>
-                        <button class="continent-option" data-continent="Asia" onclick="ShowCountries(this)">Asia</button>
-                        <button class="continent-option" data-continent="Africa" onclick="ShowCountries(this)">Africa</button>
-                        <button class="continent-option" data-continent="Oceania" onclick="ShowCountries(this)">Antartica</button>
-                        <button class="continent-option" data-continent="Europe" onclick="ShowCountries(this)">Europe</button>
+
+                        <label for="select-continent">Choose a continent:</label>
+                        <input list="continent-list" id="select-continent" name="select-continent" onselect="ShowCountries(this.value)" />
+                        <datalist id="continent-list">
+                            <option value="Americas">
+                            <option value="Asia">
+                            <option value="Africa">
+                            <option value="Oceania">
+                            <option value="Europe">
+                        </datalist>
+
                     </div>
                 </header>
                 <main class="countries">

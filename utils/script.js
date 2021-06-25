@@ -1,6 +1,7 @@
 
 function ShowCountries(continent) {
-    let continentSelected =continent.getAttribute(`data-continent`)
+    let continentSelected =continent
+   /*  let continentSelected =continent.getAttribute(`data-continent`) */
     const URL_API=`https://restcountries.eu/rest/v2/all`
     const URL_API_REGION=`https://restcountries.eu/rest/v2/region/${continentSelected}`
     let xhr=new XMLHttpRequest()
