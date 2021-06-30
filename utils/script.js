@@ -16,6 +16,7 @@ function ShowCountries(continent) {
                 mainCountries.innerHTML=""
                 continentName.textContent=continentSelected
                 mainCountries.appendChild(continentName)
+                mainCountries.style.display=`none`
               /*countriesByContinent.forEach(country => { */
                     countries.forEach(country => {
                     const CARD= document.createElement(`div`)
@@ -47,6 +48,7 @@ function ShowCountries(continent) {
                     CARD.appendChild(CARD_INFO)
                     mainCountries.appendChild(CARD)                
                 });
+                mainCountries.style.display=`block`
             }
         }
     xhr.send()
