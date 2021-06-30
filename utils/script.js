@@ -1,6 +1,8 @@
 
 function ShowCountries(continent) {
     let continentSelected =continent
+
+
    /*  let continentSelected =continent.getAttribute(`data-continent`) */
     const URL_API=`https://restcountries.eu/rest/v2/all`
     const URL_API_REGION=`https://restcountries.eu/rest/v2/region/${continentSelected}`
@@ -8,7 +10,6 @@ function ShowCountries(continent) {
     xhr.open('GET',URL_API_REGION,true)
         xhr.onload=function () {
             if (xhr.status==200) {
-                console.log(`success`)
                 let countries=JSON.parse(this.response)
               /*let countriesByContinent=countries.filter(country => country.region==`Europe` ) */
                 let mainCountries=document.getElementsByClassName(`countries`)[0]
@@ -50,7 +51,6 @@ function ShowCountries(continent) {
                     
                 });
             }
-
         }
     xhr.send()
 }
