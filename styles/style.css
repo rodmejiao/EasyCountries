@@ -37,6 +37,10 @@
     text-align: center;
 }
 
+.loader{
+    display: none;
+}
+
 .countries{
     width: 100%;
     display: flex;

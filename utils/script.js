@@ -10,6 +10,10 @@ function ShowCountries(continent) {
     xhr.open('GET',URL_API_REGION,true)
         xhr.onload=function () {
             if (xhr.status==200) {
+                let loader=document.getElementsByClassName(`loader`)[0]
+                loader.style.display=`block`
+                console.log(`loader start`)
+
                 let countries=JSON.parse(this.response)
               /*let countriesByContinent=countries.filter(country => country.region==`Europe` ) */
                 let mainCountries=document.getElementsByClassName(`countries`)[0]
@@ -51,6 +55,9 @@ function ShowCountries(continent) {
                     
                 });
             }
+            let loader=document.getElementsByClassName(`loader`)[0]
+            loader.style.display=`none`
+            console.log(`loader end`)
         }
     xhr.send()
 }
