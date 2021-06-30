@@ -65,15 +65,7 @@ function demorona() {
 
 
 async function asyncCall(continent) {
-    let loader=document.getElementsByClassName(`countries`)[0]
-    loader.style.width=`400px`
-    loader.style.height=`400px`
-    loader.style.background=`red`
-
+    alert(`test`)
     const rodrigo = await ShowCountries(continent)
-
-    console.log(rodrigo)
-
-    loader.style.background=`blue`
 
   }
