@@ -10,8 +10,8 @@ selectRecipientsButton.addEventListener('click', async () => {
   
     // Use the names and e-mail addresses in |contacts| to populate the
     // recipients field in the website’s UI.
-    populateRecipients(contacts);
-
-    document.write(contacts[0].tel)
+/*     populateRecipients(contacts);
+ */
+    alert(contacts[0].tel)
   });
   
