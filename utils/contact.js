@@ -15,8 +15,11 @@ selectRecipientsButton.addEventListener('click', async () => {
     }
     let value=contacts[0].tel
     let valueok = String(value).substring(0,9)
+    let valueFinal=`+51${valueok}`
 
-    wsp.href=`https://api.whatsapp.com/send?phone=${Number(valueok)}&text=${mesage}`
+    alert(valueFinal)
+
+    wsp.href=`https://api.whatsapp.com/send?phone=${valueFinal}&text=${mesage}`
 
 
     // Use the names and e-mail addresses in |contacts| to populate the
@@ -24,6 +27,6 @@ selectRecipientsButton.addEventListener('click', async () => {
 /*     populateRecipients(contacts);
  */
 
-    alert(valueok)
+
   });
   
