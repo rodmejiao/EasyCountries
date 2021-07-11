@@ -14,14 +14,13 @@ selectRecipientsButton.addEventListener('click', async () => {
       return;
     }
     
-    wsp.href=`https://api.whatsapp.com/send?phone=${contacts[0].tel}&text=${mesage}`
+    wsp.href=`https://api.whatsapp.com/send?phone=${ (contacts[0].tel).substring(0, 9) }&text=${mesage}`
 
-    console.log(`https://api.whatsapp.com/send?phone=${contacts[0].tel}&text=${mesage}`)
 
     // Use the names and e-mail addresses in |contacts| to populate the
     // recipients field in the website’s UI.
 /*     populateRecipients(contacts);
  */
-    alert(contacts[0].tel)
+    alert(contacts[0].tel.substring(0, 9))
   });
   
