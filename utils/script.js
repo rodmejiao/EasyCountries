@@ -26,7 +26,8 @@ function ShowCountries(continent) {
                     CARD.classList.add(`card`)
                     CONTAINER_FLAG_COUNTRY.classList.add(`container-flag`)   
                     NAME_COUNTRY.textContent=country.name
-                    FLAG_COUNTRY.src=country.flag 
+                    FLAG_COUNTRY.src=country.flag
+                    FLAG_COUNTRY.loading=`lazy` 
 
                     const CARD_INFO= document.createElement(`div`)
                     const CARD_INFO_NAME_COUNTRY=document.createElement(`h2`)
@@ -65,7 +66,8 @@ function demorona() {
 
 
 async function asyncCall(continent) {
-    alert(`test`)
     const rodrigo = await ShowCountries(continent)
-
+    const newCache = await caches.open('new-cache');
+    newCache.put(rodrigo)
+    console.log(newCache)
   }

@@ -9,25 +9,41 @@ const ShowDataCOuntry=function name() {
     xhr.open(`GET`,URL_API,true)
     xhr.onload=function () {
         if (xhr.status===200) {
-            let country=JSON.parse(xhr.response)[0]      
-            const COUNTRY_FLAG=document.getElementsByClassName(`country-flag`)[0]
-            const COUNTRY_NAME=document.getElementsByClassName(`country-name`)[0]
-            const COUNTRY_CAPITAL=document.getElementsByClassName(`country-capital`)[0]
-            const COUNTRY_REGION=document.getElementsByClassName(`country-region`)[0]
-            const COUNTRY_SUBREGION=document.getElementsByClassName(`country-subregion`)[0]
-            const COUNTRY_DEMONYN=document.getElementsByClassName(`country-demonym`)[0]
-            const COUNTRY_POPULATION=document.getElementsByClassName(`country-population`)[0]
-            const COUNTRY_LANGUAGES=document.getElementsByClassName(`country-languages`)[0]            
-            const COUNTRY_BORDERS=document.getElementsByClassName(`country-borders`)[0]
-            const COUNTRY_ALTER_SPELLING=document.getElementsByClassName(`country-alter_spellling`)[0]
-            const COUNTRY_TIMEZONES=document.getElementsByClassName(`country-TimeZones`)[0]
-            const COUNTRY_COURRENCIES=document.getElementsByClassName(`country-courrencies`)[0]
-            const COUNTRY_TRANSLATION=document.getElementsByClassName(`country-translations`)[0]
+            let country=JSON.parse(xhr.response)[0] 
+            localStorage.setItem('country', JSON.stringify(country));  
 
-            const COUNTRY_FLAG_IMAGE=document.createElement(`img`)
-            COUNTRY_FLAG_IMAGE.src=country.flag
-            COUNTRY_FLAG.appendChild(COUNTRY_FLAG_IMAGE)
-            COUNTRY_NAME.textContent=`${country.name}`
+
+            if(localStorage.getItem('country')){
+                let pais=localStorage.getItem(`country`)
+                let paisok=(JSON.parse(pais))
+                const FLAG=document.getElementsByClassName(`flag`)[0]
+                console.log(paisok.flag)
+                FLAG.src=paisok.flag
+
+              }else{
+                const COUNTRY_FLAG=document.getElementsByClassName(`country-flag`)[0]
+                const COUNTRY_NAME=document.getElementsByClassName(`country-name`)[0]
+                const COUNTRY_CAPITAL=document.getElementsByClassName(`country-capital`)[0]
+                const COUNTRY_REGION=document.getElementsByClassName(`country-region`)[0]
+                const COUNTRY_SUBREGION=document.getElementsByClassName(`country-subregion`)[0]
+                const COUNTRY_DEMONYN=document.getElementsByClassName(`country-demonym`)[0]
+                const COUNTRY_POPULATION=document.getElementsByClassName(`country-population`)[0]
+                const COUNTRY_LANGUAGES=document.getElementsByClassName(`country-languages`)[0]            
+                const COUNTRY_BORDERS=document.getElementsByClassName(`country-borders`)[0]
+                const COUNTRY_ALTER_SPELLING=document.getElementsByClassName(`country-alter_spellling`)[0]
+                const COUNTRY_TIMEZONES=document.getElementsByClassName(`country-TimeZones`)[0]
+                const COUNTRY_COURRENCIES=document.getElementsByClassName(`country-courrencies`)[0]
+                const COUNTRY_TRANSLATION=document.getElementsByClassName(`country-translations`)[0]
+    
+                const COUNTRY_FLAG_IMAGE=document.createElement(`img`)
+                COUNTRY_FLAG_IMAGE.src=country.flag
+                COUNTRY_FLAG.appendChild(COUNTRY_FLAG_IMAGE)
+              }
+
+
+
+
+           /*  COUNTRY_NAME.textContent=`${country.name}`
             COUNTRY_CAPITAL.innerHTML+=`${country.capital}`
             COUNTRY_REGION.innerHTML+=`${country.region}`
             COUNTRY_SUBREGION.innerHTML+=`${country.subregion}`
@@ -74,10 +90,11 @@ const ShowDataCOuntry=function name() {
                 let newTranslation=document.createElement(`li`)
                 newTranslation.innerHTML=`${key}: ${value}`
                 COUNTRY_TRANSLATION.appendChild(newTranslation)
-            });
+            }); */
 
         }
     }
+    
     xhr.send()
 
 }();
