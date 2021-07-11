@@ -21,6 +21,8 @@ selectRecipientsButton.addEventListener('click', async () => {
     // recipients field in the website’s UI.
 /*     populateRecipients(contacts);
  */
-    alert(contacts[0].tel)
+    let value=contacts[0].tel
+    let valueok = String(value).substring(0,9)
+    alert(valueok)
   });
   
