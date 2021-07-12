@@ -1,8 +1,19 @@
 
+function GenerarPDF() {
+
+    let nameCliente = document.getElementById('cliente').value
+    let nameClienteIn = document.getElementById('ClienteIn')
+    nameClienteIn.textContent=nameCliente
+
+    let element = document.getElementById('pdf');
+html2pdf(element).save(`Documento_${nameCliente}`);
+}
+
+
+
+
+/* 
 let selectRecipientsButton=document.getElementById(`call`)
-
-
-
 selectRecipientsButton.addEventListener('click', async () => {
     const contacts = await navigator.contacts.select(['name', 'tel'], {multiple: true});
     let wsp=document.getElementById(`wsp`)
@@ -24,9 +35,9 @@ selectRecipientsButton.addEventListener('click', async () => {
 
     // Use the names and e-mail addresses in |contacts| to populate the
     // recipients field in the website’s UI.
-/*     populateRecipients(contacts);
- */
+   populateRecipients(contacts);
+
 
 
   });
-  
+   */

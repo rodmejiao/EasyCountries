@@ -5,14 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <script src="./utils/contact.js"></script>
+    <style>
+        .pdf{
+            width: 100%;
+            height: auto;
+            opacity: 0;
+            background-color: papayawhip;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        .pdf h1{
+            width: 100%;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-        <textarea name="" id="mesage" cols="30" rows="10"></textarea>
 
-        <button id="call">Selecciona contacto</button>
 
-        <a id="wsp" href="">enviar wsp </a>
 
-        <script src="./utils/contact.js"></script>
+    <label for="cliente">Nombre del Cliente:
+        <input type="text" id="cliente">
+    </label>
+
+
+
+        <div class="pdf" id="pdf">
+            <h1>Constancia de servicio</h1>
+            <p>Estimado: <span id="ClienteIn"></span></p>
+        </div>
+
+        <button onclick="GenerarPDF()">Generar PDF</button>
 </body>
 </html>
