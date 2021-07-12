@@ -1,12 +1,64 @@
 
+function AgregarItem() {/* 
+  let  = document.getElementById('').value
+  let  = document.getElementById('').value
+  let  = document.getElementById('').value
+  let  = document.getElementById('').value
+ */
+
+  let table = document.getElementById('table')
+ 
+  let item = document.getElementById('itemInput').value
+  let descripcion = document.getElementById('descripcionInput').value
+  let cantidad = document.getElementById('cantidadInput').value
+  let precio = document.getElementById('precioInput').value
+
+  let newRow= document.createElement(`tr`)
+  let field1=document.createElement(`td`)
+  let field2=document.createElement(`td`)
+  let field3=document.createElement(`td`)
+  let field4=document.createElement(`td`)
+  let field5=document.createElement(`td`)  
+
+  field1.textContent=item
+  field2.textContent=descripcion
+  field3.textContent=precio
+  field4.textContent=cantidad
+  field5.textContent=precio*cantidad
+
+  newRow.appendChild(field1)
+  newRow.appendChild(field2)
+  newRow.appendChild(field3)
+  newRow.appendChild(field4)
+  newRow.appendChild(field5)
+  table.appendChild(newRow)
+
+  document.getElementById('itemInput').value=''
+  document.getElementById('descripcionInput').value=''
+  document.getElementById('cantidadInput').value=''
+  document.getElementById('precioInput').value=''
+
+
+  let cliente = document.getElementById('ClienteInput').value
+  let fecha = document.getElementById('FechaInput').value
+  let lugarServicio = document.getElementById('LugarServicioInput').value
+
+
+  document.getElementById('ClienteIn').textContent=cliente
+  document.getElementById('FechaIn').textContent=fecha
+  document.getElementById('LugarIn').textContent=lugarServicio
+
+   alert(`Agregado!`)
+}
+
+
+
 function GenerarPDF() {
 
-    let nameCliente = document.getElementById('cliente').value
-    let nameClienteIn = document.getElementById('ClienteIn')
-    nameClienteIn.textContent=nameCliente
+
 
     let element = document.getElementById('pdf');
-html2pdf(element).save(`Documento_${nameCliente}`);
+html2pdf(element).save(`Cotizacion`);
 }
 
 

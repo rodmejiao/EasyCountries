@@ -8,36 +8,112 @@
     <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
     <script src="./utils/contact.js"></script>
     <style>
+
+        *{
+            box-sizing: content-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        main{
+            width: 100%;
+            height: 100vh;
+        }
+
+
         .pdf{
             width: 100%;
-            height: auto;
+            height: 30cm;
             background-color: papayawhip;
-            display: flex;
-            flex-wrap: wrap;
+            position: relative;
             
+        }
+
+        .pdf p{
+            width: 100%;
+            margin: 10px 20px;
         }
 
         .pdf h1{
             width: 100%;
+            height: 30px;
+            padding: 20px 0px;
             text-align: center;
         }
+
+         table, th {
+             margin:50px auto;
+            border: 1px solid black;
+            width: 90%;
+        }
+
+        .footer{
+            position: absolute;
+            bottom: 0px;
+        }
+
+        input{
+            width: 350px;
+        }
+
     </style>
 </head>
 <body>
+        <main>
+            <h1>Cotizador de Servicios</h1>
+            <br><br>
+            <div class="principales">
+                <label for="ClienteInput"> Nombre del Cliente: <input type="text" id="ClienteInput"  ></label><br><br>
+                <label for="FechaInput"> Fecha de Servicio: <input type="date" id="FechaInput"  ></label><br><br>
+                <label for="Lugar Servicio"> Lugar Servicio: <input type="text" id="LugarServicioInput"  ></label><br><br>
+            </div>
 
+            <br><br><br>
+            <div class="items">
+                <h2>Items</h2>
+                <label for="itemInput"> TipoServicio: <input type="text" id="itemInput"  ></label><br><br>
+                <label for="descripcionInput">Descripcion de servicio: <input type="text" id="descripcionInput"  ></label><br><br>
+                <label for="cantidadInput"> Cantidad: <input type="number" id="cantidadInput"  ></label><br><br>
+                <label for="precioInput"> Precio x Unidad: <input type="number" id="precioInput"  ></label><br><br>
+                <button onclick="AgregarItem()" style="width: 40%; height: 30px;">Agregar Item</button>
+            </div>
+            <br><br><br><br>
+            <button onclick="GenerarPDF()" style="width: 80%; height: 50px;">Generar PDF</button>
 
-
-    <label for="cliente">Nombre del Cliente:
-        <input type="text" id="cliente">
-    </label>
-
+        </main>
 
 
         <div class="pdf" id="pdf">
-            <h1>Constancia de servicio</h1>
+            <h1>Cotizacion</h1>
             <p>Estimado: <span id="ClienteIn"></span></p>
+            <p>Fecha de servicio: <span id="FechaIn"></span></p>
+            <p>Lugar de servicio : <span id="LugarIn"></span></p>
+        
+
+            <table id="table">
+                <thead>
+                    <th>Item</th>
+                    <th>Descripcion</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </thead>
+
+            </table>
+
+            
+            <div class="footer">
+                <hr>
+                <p>
+                    Detalles del servicio: <br>
+                    • El servicio incluye recojo y entrega<br>
+                    • El resultado final logra una desinfección y eliminación de ácaros.<br>
+                    ✓ Entregamos recibos por honorarios RUC 10081716507<br>
+                    ✓ Pago en efectivo<br>
+                </p>
+            </div>            
         </div>
 
-        <button onclick="GenerarPDF()">Generar PDF</button>
+
 </body>
 </html>
